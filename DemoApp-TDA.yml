@@ -1,4 +1,8 @@
 databasename: xpxpxp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
 spring:
   profiles: sentence
 server:
