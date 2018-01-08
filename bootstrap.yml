@@ -2,7 +2,11 @@ eureka:
   client: 
     serviceUrl: 
       defaultZone: http://localhost:8010/eureka/
-    
+      
+spring: 
+  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
 ---
 spring: 
   profiles: subject
@@ -17,12 +21,6 @@ words: ran,knew,had,saw,bought
 spring: 
   profiles: article
 words: a,the
-
----
-spring: 
-  profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
 ---
 spring: 
   profiles: noun
